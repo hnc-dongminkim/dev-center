@@ -1,0 +1,241 @@
+.api_section {
+  width: 100%;
+  height: 986px;
+  position: absolute;
+  z-index: 10;
+  margin: 640px 0 0 0;
+  background-color: #fafafa;
+}
+
+.api_section_top_left_image {
+  width: 549px;
+  height: 678px;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  z-index: 20;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.api_section_bottom_right_image {
+  width: 672px;
+  height: 436px;
+  top: 100%;
+  left: 100%;
+  transform: translate(-100%, -100%);
+  position: absolute;
+  z-index: 20;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+  opacity: 0.62;
+  mix-blend-mode: multiply;
+}
+
+.api_section_title {
+  width: fit-content;
+  height: fit-content;
+  top: 18.2556%;
+  left: 50%;
+  /*margin과 padding을 주지 않아도 브라우저가 자동으로 값을
+      주는 경우가 있기에 명시적으로 해당 값들이 없다는 코드를 작성해야한다.*/
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 20;
+  transform: translate(-50%, -50%);
+  font-family: NotoSansCJKkr;
+  font-size: 40px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+
+.api_section_subtitle {
+  width: fit-content;
+  height: fit-content;
+  top: 23.7323%;
+  left: 50%;
+  /*margin과 padding을 주지 않아도 브라우저가 자동으로 값을
+      주는 경우가 있기에 명시적으로 해당 값들이 없다는 코드를 작성해야한다.*/
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 20;
+  transform: translate(-50%, -50%);
+  font-family: NotoSansCJKkr;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #888888;
+}
+
+.api_section_product_container {
+  top: 53.2454%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 20;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 24px;
+  list-style: none;
+}
+
+.api_section_product_box {
+  width: 292px;
+  height: 434px;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+  background-color: #ffffff;
+}
+
+.api_section_product_box .main_image {
+  width: 120px;
+  height: 120px;
+  top: 27.6498%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+}
+
+.api_section_product_box .title {
+  width: fit-content;
+  height: fit-content;
+  top: 51.6129%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  font-family: NotoSansCJKkr;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #111111;
+}
+
+.api_section_product_box .description {
+  /*정해진 너비를 넘어가면 ellipsis 처리 될 수 있도록 고정 값 줌*/
+  width: 240px;
+  height: fit-content;
+  top: 67.7419%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-family: NotoSansCJKkr;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #888888;
+}
+
+.api_section_product_box .link_box {
+  /*링크 타이틀과 링크 이미지 중 height가 더 높은 링크 이미지를
+      기준으로 그리드 컨테이너로 감싸주었고 기준은 그리드 컨테이너의 중심이다.*/
+  top: 85.4838%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 20;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 0px;
+  list-style: none;
+}
+
+.api_section_product_box .link_box .link_title {
+  width: fit-content;
+  height: 14px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  position: relative;
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: center;
+  vertical-align: middle;
+  color: #333333;
+}
+
+.api_section_product_box .link_box .link_image {
+  width: 16px;
+  height: 16px;
+  margin: 1px 0px 1px 0px;
+  padding: 0px;
+  position: relative;
+  object-fit: contain;
+}
+
+.api_section_all_products_link_box {
+  width: 180px;
+  height: 60px;
+  top: 84.787%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border-radius: 30px;
+  border: solid 1px #666666;
+}
+
+.api_section_all_products_title {
+  width: fit-content;
+  height: fit-content;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 30;
+  margin: 0;
+  padding: 0;
+  font-family: NotoSansCJKkr;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #333333;
+}

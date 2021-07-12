@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>C924DE6B-8F7F-47D1-8A6D-9F26FD43BAB5</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Developers_Intro" transform="translate(-511.000000, -1303.000000)">
+            <g id="icon-/-ic16_arrow_right" transform="translate(511.000000, 1303.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <polyline id="Path-Copy" stroke="#777777" stroke-linecap="round" stroke-linejoin="round" transform="translate(8.500000, 8.000000) scale(-1, 1) rotate(90.000000) translate(-8.500000, -8.000000) " points="13.5 5.5 8.5 10.5 3.5 5.5"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
